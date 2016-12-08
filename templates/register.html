@@ -11,10 +11,24 @@
         </div>
         <div id="content">
             <form method="post" action="{{ url_for('register_user') }}">
-                <label for="email">Enter your email:</label>
-                <input type="email" name="email" /><br />
-                <label for="password">Enter password:</label>
-                <input type="password" name="password" /><br />
+                <label for="first_name">First Name:</label>
+                <input type="first_name" name="first_name" required/><br />
+                <label for="last_name">Last Name:</label>
+                <input type="last_name" name="last_name" required/><br />
+
+                <label for="hometown">Hometown (optional):</label>
+                <input type="hometown" name="hometown" /><br />
+                <label for="gender">Gender M/F (optional):</label>
+                <input type="gender" name="gender" /><br />
+                <label for="dob">Date of Birth (YYYY-MM-DD):</label>
+                <input type="dob" name="dob" required/><br />
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required/><br />
+                <label for="password">Password:</label>
+                <input type="password" name="password" required/><br />
+                
+
                 <input type="submit" />
             </form>
          </div>
