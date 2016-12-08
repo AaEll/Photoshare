@@ -33,3 +33,9 @@ python app.py
 ```
 
 You can now point your favorite web brower to [localhost:5000](localhost:5000) to see your web app. 
+
+
+###Main Edits:
+
+You can see most of the work that I have completed in app.py (where most of the API to interact with the database exists), schema.sql, and the various template HTML files. 
+
